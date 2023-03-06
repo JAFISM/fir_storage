@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       // Remove the debug banner
       debugShowCheckedModeBanner: false,
-      theme: ThemeData(primarySwatch: Colors.green),
+      theme: ThemeData(primarySwatch: Colors.amber),
       home: const HomePage(),
     );
   }
